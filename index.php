@@ -313,6 +313,9 @@ $run_q=mysqli_query($con, $q);
 
   <footer id="myFooter">
     <div class="p-container  p-padding-32 " style="color:#fff !important; background-color:#000 !important">
+	<div style="float:right">
+	<img  src="https://www.indianholiday.com/images/footerbg.jpg" width="95%"  alt="" class="img-responsive">
+	</div>
 	
       <p align="left" class="footerfont" style="margin-left:30px">
         <h3 style="margin-left:30px"><i>Tour travel Project Pvt. Ltd</i></h3>
