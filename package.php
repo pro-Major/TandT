@@ -286,7 +286,7 @@ if(isset($_GET['view_package_detail']))
 							value($date,$adob,$tprice,$group,0,'$uname',$pid,'$coupon')";
 							$run=mysqli_query($con,$q);
 							$_SESSION['pid']=mysqli_insert_id($con);
-						echo "<script>window.open('New/index.php','_self')</script>";
+						echo "<script>window.open('cc/index.php','_self')</script>";
 				}
 			}
 			/*$q="selcet coupon from package where coupon=%$coupon%";
@@ -328,7 +328,7 @@ if(isset($_GET['view_package_detail']))
 			
 			$_SESSION['pid']=mysqli_insert_id($con);
 				
-			echo "<script>window.open('New/index.php','_self')</script>";
+			echo "<script>window.open('cc/index.php','_self')</script>";
 			
 		}
 	}
