@@ -241,73 +241,7 @@ $run_q=mysqli_query($con, $q);
 	</div>
   </div>
  </div>
-<!-- Overlay effect when opening sidebar on small screens --
-<div class="p-overlay p-hide-large" onclick="p_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible --
-<div class="p-main" style="margin-left:250px">
-
-  <div class="p-row p-padding-64">
-  <!--
-    <div class="p-twothird p-container">
-      <h1 class="p-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-	--
-    <div class="p-third p-container">
-      <p class="p-border p-padding-large p-padding-32 p-center">AD</p>
-      <p class="p-border p-padding-large p-padding-64 p-center">AD</p>
-    </div>
-  </div>
-
-  <div class="p-row">
-  <!--
-    <div class="p-twothird p-container">
-      <h1 class="p-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-	--
-    <div class="p-third p-container">
-      <p class="p-border p-padding-large p-padding-32 p-center">AD</p>
-      <p class="p-border p-padding-large p-padding-64 p-center">AD</p>
-    </div>
-  </div>
-
-  <div class="p-row p-padding-64">
-  <!--
-    <div class="p-twothird p-container">
-      <h1 class="p-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-	--
-    <div class="p-third p-container">
-      <p class="p-border p-padding-large p-padding-32 p-center">AD</p>
-      <p class="p-border p-padding-large p-padding-64 p-center">AD</p>
-    </div>
-  </div>
-
-  <!-- Pagination -->
-  <!--
-  <div class="p-center p-padding-32">
-    <div class="p-bar">
-      <a class="p-button p-black" href="#">1</a>
-      <a class="p-button p-hover-black" href="#">2</a>
-      <a class="p-button p-hover-black" href="#">3</a>
-      <a class="p-button p-hover-black" href="#">4</a>
-      <a class="p-button p-hover-black" href="#">5</a>
-      <a class="p-button p-hover-black" href="#">»</a>
-    </div>
-  </div>
--->
-
-<!-- Quotes -->
-
-
-
-<!--End of quotes-->
 <!-- starting of footer -->
 
 
