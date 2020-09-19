@@ -28,16 +28,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   bottom: 0;
   height: inherit;
 }
-.movingstyle{
-     font-size: 20px;
-    background: #009688;;
-    color: white;
-    position: relative;
-    -webkit-animation: mymove 10s;  
-    -webkit-animation-iteration-count: infinite; 
-    animation: mymove 10s;
-    animation-iteration-count: infinite;
-}
+
 .polaroid {
   width: 500px;
   height:400px;
@@ -112,7 +103,7 @@ footer, header, hgroup, menu, nav, section {
    
 	<a href="#" class="p-bar-item p-button p-hide-small p-hover-white  p-white">Home</a>
     <a href="allpackage.php" class="p-bar-item p-button p-hide-small p-hover-white">All Packages</a>
-    <a href="contact.php" class="p-bar-item p-button p-hide-small p-hover-white">Contact</a>
+    <a href="contact.php" class="p-bar-item p-button p-hide-small p-hover-white">Contact Us</a>
    <!-- <a href="#" class="p-bar-item p-button p-hide-small p-hide-medium p-hover-white">Partners</a>
    
    <a href="logout.php" class="p-bar-item p-button p-hide-small p-hide-medium p-hover-white p-right">Logout</a>
@@ -122,231 +113,20 @@ footer, header, hgroup, menu, nav, section {
 	?>
   </div>
 </div>
+<?php include('slider.php'); ?>
 
-<!-- Slideshow container -->
-<style> 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-</style>
-
-<div class="slideshow-container" >
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="img/goa.jpg" style="width:100%">
-    <div class="text">GOA </div>
-  </div>
-  <div class="mySlides fade">
-    <img src="img/manali.jpg" style="width:100%">
-    <div class="text">MANALI</div>
-  </div>
-
-  <div class="mySlides fade">
-    <img src="img/rishikesh.jpg" style="width:100%">
-    <div class="text">RISHIKESH</div>
-  </div>
-  <div class="mySlides fade">
-    <img src="img/ranthambore.jpg" style="width:100%">
-    <div class="text">RANTHAMBORE</div>
-  </div>
-  <div class="mySlides fade">   
-    <img src="img/jaipur.jpg" style="width:100%">
-    <div class="text">JAIPUR</div>
-  </div>
-
-  
-  </style>
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
 <!--/Slideshow container --> 
-
-<!-- Slide show for upper images -->
-<!--
-<style>
-.mySlides {display:none;}
-</style>
-
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/1.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-bottom" src="homepage_upperimages/2.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/3.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/4.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-bottom" src="homepage_upperimages/5.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/6.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/7.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-bottom" src="homepage_upperimages/8.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/9.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/10.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-bottom" src="homepage_upperimages/11.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/12.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/13.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-bottom" src="homepage_upperimages/14.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  <img class="mySlides w3-animate-top" src="homepage_upperimages/15.jpg" style="width:270%;min-height:100px;max-height:400px;">
-  
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2500);    
-}
-</script> -->
-
 <div id="id01" class="">
   <h2 class="userlogin" style="text-shadow: 1px 1px;" align="center">Let's measure the world...</h2>
-  <div class="modal-content">
-  
-    <p class="movingstyle">
-      Now enjoy this summer with most affordable price. 
-    </p>
-  </div>
+ 
 	<h3 class="p-text-teal" align="center">
      We specialize in customized/tailor-made tours to India as well as international tour packages. All our itineraries are customizable. Browse through our sample tour packages for your trip to Indian Subcontinent.
     </h3>
 </div>
-
-<div >
-  
-    
-  </div>
-
-
-
+<div >    
+ </div>
 <!--End slide show for upper images -->
-
-
-
 <!-- Contains the packages -->
-
 <?php
 global $con;
 $q="select * from package order by RAND() LIMIT 0,4";
