@@ -155,11 +155,10 @@ else
 
 
 						$pdf->Cell(189 ,20,'',0,1);//end of line
-						$pdf->Cell(130 ,10,'TOUR TRAVEL PVT. LTD.',0,1);
+						$pdf->Cell(130 ,10,'TOUR AND TRAVEL PROJECT.',0,1);
 						$pdf->SetFont('Arial','',12);
-						$pdf->Cell(130 ,5,'741,BH - 3',0,1);
-						$pdf->Cell(130 ,5,'IIIT-A, JHALWA',0,1);
-						$pdf->Cell(130 ,5,'PIN - 211012',0,1);
+						$pdf->Cell(130 ,5,'Mumbai, Maharashtra',0,1);
+						$pdf->Cell(130 ,5,'PIN - 400071',0,1);
 						$pdf->Cell(189 ,10,'',0,1);//end of line
 						$pdf->SetTextColor(6,74,121);
 						$pdf->Cell(189 ,5,'We wish you a HAPPY & PROSPEROUS journey',0,1,'C');

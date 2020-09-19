@@ -69,7 +69,7 @@ include("function.php");
 	  -->
 	  <div class="container" style="background-color:#f1f1f1">
 		<button type="submit"  class "cancelbtn" name ="create"><b>Create</b></button>
-		<button type="button" onclick="window.open('home.php','_self')" class="cancelbtn">Cancel</button>
+		<button type="button" onclick="window.open('index.php','_self')" class="cancelbtn">Cancel</button>
 	  </div>
     </div>
 	

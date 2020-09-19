@@ -77,24 +77,24 @@ include("db.php");
 		<h1 align="center"><i>ABOUT US...</i></h1>
 		<table style="color: black; " align="center" id="bolding">
 			<tr>
-				<td><img src="contactuspics/naina.jpg" style="width: 200px;max-height: 190px; padding: 10px; border-radius: 50%; margin: 0;" ></td>
+				<td><img src="contactuspics/brijesh.png" style="width: 200px;max-height: 190px; padding: 10px; border-radius: 50%; margin: 0;" ></td>
 				<td>
 					<table>
 						<tr>
 							<td>Name:</td>
-							<td>Utsav Kumar Nareti</td>
+							<td>Brijesh Vishwakarma</td>
 						</tr>
 						<tr>
 							<td>Email:</td>
-							<td>ism2016001@iiita.ac.in</td>
+							<td>brijeshrv26@gmail.com</td>
 						</tr>
 						<tr>
 							<td>Mobile no:</td>
-							<td>+91-8085402177</td>
+							<td>+91-8976437651</td>
 						</tr>
 						<tr>
 							<td>Address:</td>
-							<td>IIIT-A, JHALWA, ALLAHABAD</td>
+							<td>Chembur</td>
 						</tr>
 					</table>
 				</td>
@@ -107,74 +107,25 @@ include("db.php");
 					<table>
 						<tr>
 							<td>Name:</td>
-							<td>Raghvendra Kumar</td>
+							<td>Bipin Navik</td>
 						</tr>
 						<tr>
 							<td>Email:</td>
-							<td>iim2016004@iiita.ac.in</td>
+							<td>bipinnavik@gmail.com</td>
 						</tr>
 						<tr>
 							<td>Mobile no:</td>
-							<td>+91-9628707901</td>
+							<td>+91-9768524514</td>
 						</tr>
 						<tr>
 							<td>Address:</td>
-							<td>IIIT-A, JHALWA, ALLAHABAD</td>
+							<td>Chembur</td>
 						</tr>
 					</table>
 				</td>
-				<td><img src="contactuspics/Raghu.jpg" style="width: 200px;max-height: 190px; padding: 10px; border-radius: 50%; margin: 0;" ></td>
+				<td><img src="contactuspics/bipin.jpg" style="width: 200px;max-height: 190px; padding: 10px; border-radius: 50%; margin: 0;" ></td>
 			</tr>
 
-			<tr>
-				<td><img src="contactuspics/saurabh.jpg" style="width: 200px;max-height: 190px; padding: 10px; border-radius: 50%; margin: 0;"> </td>
-				<td>
-					<table>
-						<tr>
-							<td>Name:</td>
-							<td>Saurabh Kumar Raj</td>
-						</tr>
-						<tr>
-							<td>Email:</td>
-							<td>itm2016001@iiita.ac.in</td>
-						</tr>
-						<tr>
-							<td>Mobile no:</td>
-							<td>+91-8340513530</td>
-						</tr>
-						<tr>
-							<td>Address:</td>
-							<td>IIIT-A, JHALWA, ALLAHABAD</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-			
-
-			<tr>
-				
-				<td>
-					<table>
-						<tr>
-							<td>Name:</td>
-							<td>Avanish Chand</td>
-						</tr>
-						<tr>
-							<td>Email:</td>
-							<td>iit2016120@iiita.ac.in</td>
-						</tr>
-						<tr>
-							<td>Mobile no:</td>
-							<td>+91-7398351490</td>
-						</tr>
-						<tr>
-							<td>Address:</td>
-							<td>IIIT-A, JHALWA, ALLAHABAD</td>
-						</tr>
-					</table>
-				</td>
-				<td><img src="contactuspics/elaine.jpg" style="align:right;width: 200px;max-height: 190px; padding: 10px; border-radius: 50%; margin: 0;" ></td>
-			</tr>
 			
 			
 

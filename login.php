@@ -77,8 +77,8 @@ include("function.php");
 	  <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
-	  -->
-	  <span class="psw1">Don't have a Account <a href="register.php">Sign Up</a></span>
+-->
+	  <button type="signup" span class="psw1">Don't have a Account <a href="register.php">Sign Up</a></span>
     </div>
 
     <div class="container1" style="background-color:#f1f1f1">
