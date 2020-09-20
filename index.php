@@ -117,11 +117,11 @@ footer, header, hgroup, menu, nav, section {
 
 <!--/Slideshow container --> 
 <div id="id01" class="">
-  <h2 class="userlogin" style="text-shadow: 1px 1px;" align="center">Let's measure the world...</h2>
+  <h2 class="userlogin" style="text-shadow: 1px 1px;" align="center">Let's measure the world...</h2><<br><br>
  
 	<h3 class="p-text-teal" align="center">
      We specialize in customized/tailor-made tours to India as well as international tour packages. All our itineraries are customizable. Browse through our sample tour packages for your trip to Indian Subcontinent.
-    </h3>
+    </h3><br>
 </div>
 <div >    
  </div>
@@ -135,7 +135,7 @@ $run_q=mysqli_query($con, $q);
  <div id="id01" class="">
   
   <div class="modal-content">
-  <h2  style="text-shadow: 1px 1px;" align="left">Some of Our Popular Packages...</h2>
+  <h2  style="text-shadow: 1px 1px;" align="center">Some of Our Popular Packages...</h2><br>
     <div class="container p-card-4" >
 
 	<?php 
