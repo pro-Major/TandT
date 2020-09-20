@@ -77,7 +77,7 @@ button {
 		</tr>
 		<tr>
 		  <td><label for="coupon" ><b>Discount Coupons:</b></label></td>
-		  <td><input type="text" placeholder="Enter Discount Coupons" name="coupon" required></td>
+		  <td><input type="text" placeholder="Enter Discount Coupons" name="coupon" ></td>
 		</tr>
 		<tr>
 		  <td width="30%"><label for="pimage" ><b>Package Image:</b></label></td>

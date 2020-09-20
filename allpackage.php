@@ -159,7 +159,7 @@ footer, header, hgroup, menu, nav, section {
   <input type="submit" value="Go"  class="button" name="go">
   
   </form>
-  <h2 class="userlogin" style="text-shadow: 1px 1px;">Packages</h2>
+  <h2 class="userlogin" style="text-shadow: 1px 1px; font-family: 'Ranchers', cursive; "> Our Packages</h2>
  
   
   </div>
@@ -261,86 +261,6 @@ footer, header, hgroup, menu, nav, section {
 	</div>
   </div>
  </div>
-<!-- Overlay effect when opening sidebar on small screens --
-<div class="p-overlay p-hide-large" onclick="p_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible --
-<div class="p-main" style="margin-left:250px">
-
-  <div class="p-row p-padding-64">
-  <!--
-    <div class="p-twothird p-container">
-      <h1 class="p-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-	--
-    <div class="p-third p-container">
-      <p class="p-border p-padding-large p-padding-32 p-center">AD</p>
-      <p class="p-border p-padding-large p-padding-64 p-center">AD</p>
-    </div>
-  </div>
-
-  <div class="p-row">
-  <!--
-    <div class="p-twothird p-container">
-      <h1 class="p-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-	--
-    <div class="p-third p-container">
-      <p class="p-border p-padding-large p-padding-32 p-center">AD</p>
-      <p class="p-border p-padding-large p-padding-64 p-center">AD</p>
-    </div>
-  </div>
-
-  <div class="p-row p-padding-64">
-  <!--
-    <div class="p-twothird p-container">
-      <h1 class="p-text-teal">Heading</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-	--
-    <div class="p-third p-container">
-      <p class="p-border p-padding-large p-padding-32 p-center">AD</p>
-      <p class="p-border p-padding-large p-padding-64 p-center">AD</p>
-    </div>
-  </div>
-
-  <!-- Pagination -->
-  <!--
-  <div class="p-center p-padding-32">
-    <div class="p-bar">
-      <a class="p-button p-black" href="#">1</a>
-      <a class="p-button p-hover-black" href="#">2</a>
-      <a class="p-button p-hover-black" href="#">3</a>
-      <a class="p-button p-hover-black" href="#">4</a>
-      <a class="p-button p-hover-black" href="#">5</a>
-      <a class="p-button p-hover-black" href="#">»</a>
-    </div>
-  </div>
--->
-  <!--<footer id="myFooter">
-    <div class="p-container  p-padding-32" style="color:#fff !important; background-color:#000 !important">
-
-	
-    <p align="left" class="footerfont" style="margin-left:30px">
-        <h3 style="margin-left:30px"><i>Tour travel Project Pvt. Ltd</i></h3>
-		
-		<p style="margin-left:30px"><strong>By</strong><br><strong>Brijesh Vishwakarma</strong><br>And<br><strong>Bipin Navik</strong></p>
-		<p style="margin-left:30px">Mumbai,Maharashtra</p>
-		<p style="margin-left:30px">Phone: +91-8976437651</p>
-			   <p style="margin-left:80px">+91-9768524514</p>
-      </p>
-	
-	
-	 
-    </div>
-
-  
-  </footer>-->
 
 <!-- END MAIN -->
 </div>

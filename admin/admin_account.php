@@ -16,7 +16,7 @@ else {
 
 ?>
 <html>
-<title>Tour and Travel</title>
+<title>Tour and Travels</title>
 <link rel="shortcut icon" href="../logo.jpg" type="image/jpg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
