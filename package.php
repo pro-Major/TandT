@@ -32,7 +32,7 @@ else
 <link rel="stylesheet" href="css/font.css">
 <link rel="stylesheet" href="css/font_style.css">
 <link rel="stylesheet" href="css/view_customers.css">
-
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .p-sidebar {
@@ -170,10 +170,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   
     <a href="contact.php" class="p-bar-item p-button p-hide-small p-hover-white">Contact</a>
 
-   <!-- <a href="#" class="p-bar-item p-button p-hide-small p-hide-medium p-hover-white">Partners</a>
-   --
-   <a href="logout.php" class="p-bar-item p-button p-hide-small p-hide-medium p-hover-white p-right">Logout</a>
-	-->
+ 
 	<?php
 		myaccountstatus();
 	?>
@@ -226,17 +223,7 @@ if(isset($_GET['view_package_detail']))
 		  <td width=50%><input type="text" class="input" value="" name="bcoupon"></td>
 		</tr>
 		
-		<!--<tr>
-		  <td >Discount:</td>
-		  <td ><input id="bdiscount"type="text" class="input"  value="0"name="bdiscount" readonly ></td>
-		--></tr>
-		
-		<!--<tr>
-		  <td >Total Price:</td>
-		  <td ><input id="btprice" type="text" class="input"  value="" name="btprice" readonly></td>
-		  <!--<td ><input type="text" class="input"  name="bprice" ></td>
-		--</tr>-->
-		
+	
 		
 	</table>
 	<div style="background-color:#009688;">
@@ -289,33 +276,7 @@ if(isset($_GET['view_package_detail']))
 						echo "<script>window.open('cc/index.php','_self')</script>";
 				}
 			}
-			/*$q="selcet coupon from package where coupon=%$coupon%";
-			$run=mysqli_query($con,$q);
-			
-			if($run>0)
-			{
-				$q="select * from coupon where code=$coupon";
-				$run=mysqli_query($con,$q);
-				$check = mysqli_num_rows($run);
-				if($check>0)
-				{
-					$row=mysqli_fetch_array($run);
-					$off=$row['off'];
-					$tprice =($pprice*$group);
-					$discount=($tprice*$off)/100;
-					$tprice=$tprice-$discount;
-					echo "<script>alert('You have Discount=$discount and Total Price=$tprice')</script>";
-					echo "<script>window.open('payment/index.html','_self')</script>";
-				}
-				else
-				{
-					echo "<script>alert('Worng Coupon')</script>";
-				}
-			}
-			else
-			{
-				echo "<script>alert('Worng Coupon1')</script>";
-			}*/
+	
 		}
 		else
 		{
