@@ -1,0 +1,74 @@
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.p-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+.polaroid {
+  width: 500px;
+  height:400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color:#ffffff;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+.modal-content 
+{
+	 margin: 0% auto 0% auto;
+    background-color:#f1f1f1;
+	width: 100%; /* Could be more or less, depending on screen size */
+	border-radius: 25px;
+
+}
+.p-display-leftmid{position:absolute;top:15%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.column {
+    float: left;
+	margin-left:5%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 2; 
+    cursor: pointer; 
+}
+
+.column img:hover {
+    opacity: 0.9;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
