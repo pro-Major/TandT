@@ -47,14 +47,17 @@
 }
 
 /* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
+ .text {
+  
   position: absolute;
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+
   bottom: 8px;
   width: 100%;
   text-align: center;
+  color : black;   
 }
 
 
@@ -103,8 +106,8 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext"></div>
-    <img src="img/goa.jpg" style="width:100%">
+   
+    <img src="img/goa.jpg";   style="width:100%">
     <div class="text">GOA </div>
   </div>
   <div class="mySlides fade">

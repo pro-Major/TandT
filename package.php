@@ -111,7 +111,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
     -webkit-appearance: none;
 
   padding: 0.1px;
-  width:6px;
+  width:15px;
   float:right;
   padding:0.1px 0.1px;
   margin-right:0.01px;
@@ -206,15 +206,14 @@ if(isset($_GET['view_package_detail']))
 		</tr>
 		
 		<tr>
-		  <td >Arrival Date:</td>
-		   <td ><input style="width:90%;" type="date" class="date" min="<?php echo date('Y-m-d');?>" max="<?php echo (date('Y-',strtotime('+1 year')));echo (date('m-d'));?>" placeholder="DDMMYYYY" name="bdob" required></td>
+		  <td >Journey Date:</td>
+		   <td ><input style="width:100%;" type="date" class="date" min="<?php echo date('Y-m-d');?>" max="<?php echo (date('Y-',strtotime('+1 year')));echo (date('m-d'));?>" placeholder="DDMMYYYY" name="bdob" required></td>
 		</tr>
 		<tr>
 		  <td >Group Size:</td>
 			<td><select id="bgroup "class ="select" name="bgroup"  required>
 			  <option selected value="1" >1-3</option>
-			  <option value="2" >4-6</option>
-			  <option value="3">7-10</option>
+			  
 		  </select></td>
 		   
 		</tr>
@@ -250,14 +249,14 @@ if(isset($_GET['view_package_detail']))
 			$run=mysqli_query($con,$q);
 			if($run==false)
 			{
-				echo "<script>alert('Worng Coupon')</script>";
+				echo "<script>alert('Wrong Coupon')</script>";
 			}
 			else
 			{
 				$check = mysqli_num_rows($run);
 				if($check==0)
 				{
-					echo "<script>alert('Worng Coupon')</script>";
+					echo "<script>alert('Wrong Coupon')</script>";
 				}
 				else
 				{

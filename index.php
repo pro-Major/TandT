@@ -25,10 +25,7 @@ include("db.php");
 	<a href="#" class="p-bar-item p-button p-hide-small p-hover-white  p-white">Home</a>
     <a href="allpackage.php" class="p-bar-item p-button p-hide-small p-hover-white">All Packages</a>
     <a href="contact.php" class="p-bar-item p-button p-hide-small p-hover-white">Contact Us</a>
-   <!-- <a href="#" class="p-bar-item p-button p-hide-small p-hide-medium p-hover-white">Partners</a>
-   
-   <a href="logout.php" class="p-bar-item p-button p-hide-small p-hide-medium p-hover-white p-right">Logout</a>
-	-->
+ 
 	<?php
 		myaccountstatus();
 	?>
@@ -36,7 +33,6 @@ include("db.php");
 </div>
 <!-- Slideshow container -->
 <?php include('slider.php'); ?>
-
 <!--/Slideshow container --> 
 <div id="id01" class="">
   <h2 class="userlogin" style="text-shadow: 1px 1px;" align="center">Let's Measure The World...</h2><br><br>
