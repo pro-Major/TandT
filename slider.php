@@ -53,14 +53,12 @@
   color: #f2f2f2;
   font-size: 25px;
   padding: 8px 12px;
-
   bottom: 8px;
   width: 100%;
-  text-align: center;
-  color : black;   
+  text-align: center; 
+  text-decoration : underline;
+  weight: bolder;
 }
-
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -94,6 +92,8 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+
 </style>
 
 
@@ -106,7 +106,6 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-   
     <img src="img/goa.jpg";   style="width:100%">
     <div class="text">GOA </div>
   </div>
