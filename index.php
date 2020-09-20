@@ -113,11 +113,12 @@ footer, header, hgroup, menu, nav, section {
 	?>
   </div>
 </div>
+<!-- Slideshow container -->
 <?php include('slider.php'); ?>
 
 <!--/Slideshow container --> 
 <div id="id01" class="">
-  <h2 class="userlogin" style="text-shadow: 1px 1px;" align="center">Let's Measure The World...</h2><<br><br>
+  <h2 class="userlogin" style="text-shadow: 1px 1px;" align="center">Let's Measure The World...</h2><br><br>
  
 	<h3 class="p-text-teal" align="center">
      We specialize in customized/tailor-made tours to India as well as international tour packages. All our itineraries are customizable. Browse through our sample tour packages for your trip to Indian Subcontinent.
@@ -175,8 +176,10 @@ $run_q=mysqli_query($con, $q);
 	</div>
   </div>
  </div>
-
+ 
+<!-- Footer start --> 
 <?php include('footer.php') ?>
+<!--  Footer End  -->
 <!-- END MAIN -->
 </div>
 
