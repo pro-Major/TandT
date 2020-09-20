@@ -176,27 +176,7 @@ $run_q=mysqli_query($con, $q);
   </div>
  </div>
 
-<!-- starting of footer -->
-
-
-  <footer id="myFooter">
-    <div class="p-container  p-padding-32 " style="color:#fff !important; background-color:#000 !important">
-	
-      <p align="left" class="footerfont" style="margin-left:30px">
-        <h3 style="margin-left:30px"><i>Tour travel Project Pvt. Ltd</i></h3>
-		
-		<p style="margin-left:30px"><strong>By</strong><br><strong>Brijesh Vishwakarma</strong><br>And<br><strong>Bipin Navik</strong></p>
-		<p style="margin-left:30px">Mumbai,Maharashtra</p>
-		<p style="margin-left:30px">Phone: +91-8976437651</p>
-			   <p style="margin-left:80px">+91-9768524514</p>
-      </p>
-	
-	 
-    </div>
-
-  
-  </footer>
-
+<?php include('footer.php') ?>
 <!-- END MAIN -->
 </div>
 
