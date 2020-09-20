@@ -126,29 +126,6 @@ footer, header, hgroup, menu, nav, section {
   </div>
 </div>
 
-<!-- Sidebar -->
-<!--
-<nav class="p-sidebar p-bar-block p-collapse p-large p-theme-l5 p-animate-left" id="mySidebar">
-  <a href="javascript:void(0)" onclick="p_close()" class="p-right p-xlarge p-padding-large p-hover-black p-hide-large" title="Close Menu">
-    <i class="fa fa-remove"></i>
-  </a>
-  <h4 class="p-bar-item"><b>Menu</b></h4>
-  <a class="p-bar-item p-button p-hover-black" href="#">Link</a>
-  <a class="p-bar-item p-button p-hover-black" href="#">Link</a>
-  <a class="p-bar-item p-button p-hover-black" href="#">Link</a>
-  <a class="p-bar-item p-button p-hover-black" href="#">Link</a>
-</nav>
-<!-- Image Header --
-<div class="p-display-container p-card-4">
-  <img src="1.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
-  <div class="p-container p-display-leftmid p-margin-bottom">  
-    <!-- <button onclick="document.getElementById('id01').style.display='block'" class="p-button p-xlarge p-theme p-hover-teal" title="Go To p.CSS">LEARN p.CSS</button>
-	--
-	<h1 class="p-lobster w3-xxxlarge" ><strong><em>Tour & Travel System</em></strong></h1>
-  </div>
-</div>
--->
-
  <div id="id01" class="p-card-4" style="margin-top:4%;">
   
   <div class="modal-content p-card-4">
@@ -159,7 +136,7 @@ footer, header, hgroup, menu, nav, section {
   <input type="submit" value="Go"  class="button" name="go">
   
   </form>
-  <h2 class="userlogin" style="text-shadow: 1px 1px; font-family: 'Ranchers', cursive; "> Our Packages</h2>
+  <h2 class="userlogin" id="text01" style="text-shadow: 1px 1px; font-family: 'Ranchers', cursive; margin-left: 202px;"> Our Packages</h2>
  
   
   </div>
