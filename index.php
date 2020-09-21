@@ -17,6 +17,7 @@ include("db.php");
 <link rel="stylesheet" href="css/font_style.css">
 <link rel="stylesheet" href="css/view_customer.css">
 <link rel="stylesheet" href="css/customcss.css">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&display=swap" rel="stylesheet">
 <body>
 
 <!-- Navbar -->
@@ -94,9 +95,11 @@ $run_q=mysqli_query($con, $q);
   </div>
  </div>
 <br>
+<br>
 <!-- Gallery Starts Here -->
-<h3 style="text-align: center; width:bolder;"> <span> <img src="img/star.png" alt=""> <span> Gallery
+<h3 style="text-align: center;font-family: 'Fredoka One', cursive;font-size: 30px"> <span> <img src="img/star.png" alt=""> <span> Gallery
 		  <img src="img/star.png" alt=""><span></span> </h3>
+<br>
 <br>
 <?php include('gallery.php') ?>
 <!-- Gallery Ends Here -->
