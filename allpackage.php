@@ -98,7 +98,7 @@ footer, header, hgroup, menu, nav, section {
 	margin-left:0%;
     border: none;
     cursor: pointer;
-    width: 15%;
+    width: 14%;
 	float:center;
 }
 
