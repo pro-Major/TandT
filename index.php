@@ -93,7 +93,12 @@ $run_q=mysqli_query($con, $q);
 	</div>
   </div>
  </div>
-
+<br>
+<!-- Gallery Starts Here -->
+<h3 style="text-align: center; width:bolder;"> <span> <img src="img/star.png" alt=""> <span> Gallery
+		  <img src="img/star.png" alt=""><span></span> </h3>
+<br>
+<!-- Gallery Ends Here -->
 <!-- Footer start --> 
 <?php include('footer.php') ?>
 <!--  Footer End  -->

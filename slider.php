@@ -17,7 +17,7 @@
 /* Hide the images by default */
 .mySlides {
   display: none;
-}
+} 
 
 /* Next & previous buttons */
 .prev, .next {
