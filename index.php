@@ -98,13 +98,14 @@ $run_q=mysqli_query($con, $q);
 <h3 style="text-align: center; width:bolder;"> <span> <img src="img/star.png" alt=""> <span> Gallery
 		  <img src="img/star.png" alt=""><span></span> </h3>
 <br>
+<?php include('gallery.php') ?>
 <!-- Gallery Ends Here -->
 <!-- Footer start --> 
-<?php include('footer.php') ?>
+
 <!--  Footer End  -->
 <!-- END MAIN -->
-</div>
 
+<?php include('footer.php') ?>
 <script>
 // Get the Sidebar
 var mySidebar = document.getElementById("mySidebar");
