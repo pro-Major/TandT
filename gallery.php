@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     <style>
-img{
+.img01 img{
      border-radius: 8px;
      }
 
-img:hover {opacity: 0.7;}
+.img01 img:hover {opacity: 0.7;}
 </style>
 </head>
 <body>
-<div> 
+<div class='img01'> 
     <img  src="img/t1.jpg" style="width:100%;max-width:300px">
     <img  src="img/t2.jpg" style="width:100%;max-width:300px">
     <img  src="img/t3.jpg" style="width:100%;max-width:300px">
